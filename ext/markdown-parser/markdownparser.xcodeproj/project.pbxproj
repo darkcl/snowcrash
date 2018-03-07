@@ -7,6 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		742521E9205031CF0086D264 /* stack.c in Sources */ = {isa = PBXBuildFile; fileRef = BBAE52AE18FEC16B00D98223 /* stack.c */; };
+		742521EA205031CF0086D264 /* houdini_html_e.c in Sources */ = {isa = PBXBuildFile; fileRef = BBAE52CA18FEDF5200D98223 /* houdini_html_e.c */; };
+		742521EB205031CF0086D264 /* ByteBuffer.cc in Sources */ = {isa = PBXBuildFile; fileRef = BB2672ED19067E6A0053EEFA /* ByteBuffer.cc */; };
+		742521EC205031CF0086D264 /* html.c in Sources */ = {isa = PBXBuildFile; fileRef = BBAE52CD18FEDF5200D98223 /* html.c */; };
+		742521ED205031CF0086D264 /* MarkdownNode.cc in Sources */ = {isa = PBXBuildFile; fileRef = BBE7FEC01922E27300A1649E /* MarkdownNode.cc */; };
+		742521EE205031CF0086D264 /* autolink.c in Sources */ = {isa = PBXBuildFile; fileRef = BBAE52A518FEC16B00D98223 /* autolink.c */; };
+		742521EF205031CF0086D264 /* markdown.c in Sources */ = {isa = PBXBuildFile; fileRef = BBAE52AA18FEC16B00D98223 /* markdown.c */; };
+		742521F0205031CF0086D264 /* buffer.c in Sources */ = {isa = PBXBuildFile; fileRef = BBAE52A718FEC16B00D98223 /* buffer.c */; };
+		742521F1205031CF0086D264 /* html_smartypants.c in Sources */ = {isa = PBXBuildFile; fileRef = BBAE52CC18FEDF5200D98223 /* html_smartypants.c */; };
+		742521F2205031CF0086D264 /* src_map.c in Sources */ = {isa = PBXBuildFile; fileRef = BBAE52AC18FEC16B00D98223 /* src_map.c */; };
+		742521F3205031CF0086D264 /* houdini_href_e.c in Sources */ = {isa = PBXBuildFile; fileRef = BBAE52C918FEDF5200D98223 /* houdini_href_e.c */; };
+		742521F4205031CF0086D264 /* MarkdownParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = BB955A4519011A5F006684B8 /* MarkdownParser.cc */; };
+		742521F7205031CF0086D264 /* html_blocks.h in Headers */ = {isa = PBXBuildFile; fileRef = BBAE52A918FEC16B00D98223 /* html_blocks.h */; };
+		742521F8205031CF0086D264 /* html.h in Headers */ = {isa = PBXBuildFile; fileRef = BBAE52CE18FEDF5200D98223 /* html.h */; };
+		742521F9205031CF0086D264 /* buffer.h in Headers */ = {isa = PBXBuildFile; fileRef = BBAE52A818FEC16B00D98223 /* buffer.h */; };
+		742521FA205031CF0086D264 /* autolink.h in Headers */ = {isa = PBXBuildFile; fileRef = BBAE52A618FEC16B00D98223 /* autolink.h */; };
+		742521FB205031CF0086D264 /* stack.h in Headers */ = {isa = PBXBuildFile; fileRef = BBAE52AF18FEC16B00D98223 /* stack.h */; };
+		742521FC205031CF0086D264 /* ByteBuffer.h in Headers */ = {isa = PBXBuildFile; fileRef = BB955A43190119CE006684B8 /* ByteBuffer.h */; };
+		742521FD205031CF0086D264 /* markdown.h in Headers */ = {isa = PBXBuildFile; fileRef = BBAE52AB18FEC16B00D98223 /* markdown.h */; };
+		742521FE205031CF0086D264 /* src_map.h in Headers */ = {isa = PBXBuildFile; fileRef = BBAE52AD18FEC16B00D98223 /* src_map.h */; };
+		742521FF205031CF0086D264 /* MarkdownParser.h in Headers */ = {isa = PBXBuildFile; fileRef = BB955A4719011A71006684B8 /* MarkdownParser.h */; };
+		74252200205031CF0086D264 /* houdini.h in Headers */ = {isa = PBXBuildFile; fileRef = BBAE52CB18FEDF5200D98223 /* houdini.h */; };
+		74252201205031CF0086D264 /* MarkdownNode.h in Headers */ = {isa = PBXBuildFile; fileRef = BBE7FEC11922E27300A1649E /* MarkdownNode.h */; };
 		BB2672EE19067E6A0053EEFA /* ByteBuffer.cc in Sources */ = {isa = PBXBuildFile; fileRef = BB2672ED19067E6A0053EEFA /* ByteBuffer.cc */; };
 		BB2672F019067EA90053EEFA /* test-ByteBuffer.cc in Sources */ = {isa = PBXBuildFile; fileRef = BB2672EF19067EA90053EEFA /* test-ByteBuffer.cc */; };
 		BB8C3E6C1923F04E00EF36FA /* libmarkdownparser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBAE529B18FEBFAE00D98223 /* libmarkdownparser.a */; };
@@ -59,6 +82,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		74252205205031CF0086D264 /* libmarkdownparser-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libmarkdownparser-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB2672ED19067E6A0053EEFA /* ByteBuffer.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = ByteBuffer.cc; path = src/ByteBuffer.cc; sourceTree = "<group>"; };
 		BB2672EF19067EA90053EEFA /* test-ByteBuffer.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "test-ByteBuffer.cc"; path = "test/test-ByteBuffer.cc"; sourceTree = SOURCE_ROOT; };
 		BB955A43190119CE006684B8 /* ByteBuffer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ByteBuffer.h; path = src/ByteBuffer.h; sourceTree = "<group>"; };
@@ -90,6 +114,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		742521F5205031CF0086D264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BB955A4A19011E85006684B8 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -133,6 +164,7 @@
 			children = (
 				BBAE529B18FEBFAE00D98223 /* libmarkdownparser.a */,
 				BB955A4D19011E85006684B8 /* test-libmarkdownparser */,
+				74252205205031CF0086D264 /* libmarkdownparser-ios.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -186,6 +218,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		742521F6205031CF0086D264 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				742521F7205031CF0086D264 /* html_blocks.h in Headers */,
+				742521F8205031CF0086D264 /* html.h in Headers */,
+				742521F9205031CF0086D264 /* buffer.h in Headers */,
+				742521FA205031CF0086D264 /* autolink.h in Headers */,
+				742521FB205031CF0086D264 /* stack.h in Headers */,
+				742521FC205031CF0086D264 /* ByteBuffer.h in Headers */,
+				742521FD205031CF0086D264 /* markdown.h in Headers */,
+				742521FE205031CF0086D264 /* src_map.h in Headers */,
+				742521FF205031CF0086D264 /* MarkdownParser.h in Headers */,
+				74252200205031CF0086D264 /* houdini.h in Headers */,
+				74252201205031CF0086D264 /* MarkdownNode.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BBAE529918FEBFAE00D98223 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -207,6 +257,23 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		742521E7205031CF0086D264 /* libmarkdownparser-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74252202205031CF0086D264 /* Build configuration list for PBXNativeTarget "libmarkdownparser-ios" */;
+			buildPhases = (
+				742521E8205031CF0086D264 /* Sources */,
+				742521F5205031CF0086D264 /* Frameworks */,
+				742521F6205031CF0086D264 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "libmarkdownparser-ios";
+			productName = markdownparser;
+			productReference = 74252205205031CF0086D264 /* libmarkdownparser-ios.a */;
+			productType = "com.apple.product-type.library.static";
+		};
 		BB955A4C19011E85006684B8 /* test-libmarkdownparser */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB955A5319011E85006684B8 /* Build configuration list for PBXNativeTarget "test-libmarkdownparser" */;
@@ -265,11 +332,31 @@
 			targets = (
 				BBAE529A18FEBFAE00D98223 /* libmarkdownparser */,
 				BB955A4C19011E85006684B8 /* test-libmarkdownparser */,
+				742521E7205031CF0086D264 /* libmarkdownparser-ios */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
+		742521E8205031CF0086D264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				742521E9205031CF0086D264 /* stack.c in Sources */,
+				742521EA205031CF0086D264 /* houdini_html_e.c in Sources */,
+				742521EB205031CF0086D264 /* ByteBuffer.cc in Sources */,
+				742521EC205031CF0086D264 /* html.c in Sources */,
+				742521ED205031CF0086D264 /* MarkdownNode.cc in Sources */,
+				742521EE205031CF0086D264 /* autolink.c in Sources */,
+				742521EF205031CF0086D264 /* markdown.c in Sources */,
+				742521F0205031CF0086D264 /* buffer.c in Sources */,
+				742521F1205031CF0086D264 /* html_smartypants.c in Sources */,
+				742521F2205031CF0086D264 /* src_map.c in Sources */,
+				742521F3205031CF0086D264 /* houdini_href_e.c in Sources */,
+				742521F4205031CF0086D264 /* MarkdownParser.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BB955A4919011E85006684B8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -310,6 +397,26 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		74252203205031CF0086D264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		74252204205031CF0086D264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+			};
+			name = Release;
+		};
 		BB955A5419011E85006684B8 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -415,6 +522,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		74252202205031CF0086D264 /* Build configuration list for PBXNativeTarget "libmarkdownparser-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74252203205031CF0086D264 /* Debug */,
+				74252204205031CF0086D264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BB955A5319011E85006684B8 /* Build configuration list for PBXNativeTarget "test-libmarkdownparser" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

@@ -45,6 +45,86 @@
 		40DE0C0C1A08F3CF00D2F0A8 /* MSON.cc in Sources */ = {isa = PBXBuildFile; fileRef = 40DE0C0B1A08F3CF00D2F0A8 /* MSON.cc */; };
 		40DE0C0E1A091ECE00D2F0A8 /* MSONTypeSectionParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 40DE0C0D1A091ECE00D2F0A8 /* MSONTypeSectionParser.h */; };
 		40DE0C101A091F6300D2F0A8 /* test-MSONTypeSectionParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = 40DE0C0F1A091F6300D2F0A8 /* test-MSONTypeSectionParser.cc */; };
+		742521A420502FBA0086D264 /* BlueprintSourcemap.cc in Sources */ = {isa = PBXBuildFile; fileRef = 40148D511A76435F00961D74 /* BlueprintSourcemap.cc */; };
+		742521A520502FBA0086D264 /* snowcrash.cc in Sources */ = {isa = PBXBuildFile; fileRef = BBFF48CC170B3EDE001E5FB2 /* snowcrash.cc */; };
+		742521A620502FBA0086D264 /* HTTP.cc in Sources */ = {isa = PBXBuildFile; fileRef = BB92D890178EF7C10098A63C /* HTTP.cc */; };
+		742521A720502FBA0086D264 /* MSONOneOfParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4079DBA61A138C310075B534 /* MSONOneOfParser.cc */; };
+		742521A820502FBA0086D264 /* Section.cc in Sources */ = {isa = PBXBuildFile; fileRef = BB8C3E7319241C1600EF36FA /* Section.cc */; };
+		742521A920502FBA0086D264 /* Signature.cc in Sources */ = {isa = PBXBuildFile; fileRef = BBCC856819545FCE00B99E90 /* Signature.cc */; };
+		742521AA20502FBA0086D264 /* MSON.cc in Sources */ = {isa = PBXBuildFile; fileRef = 40DE0C0B1A08F3CF00D2F0A8 /* MSON.cc */; };
+		742521AB20502FBA0086D264 /* UriTemplateParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = BBFC8416196C0C0F001A236A /* UriTemplateParser.cc */; };
+		742521AC20502FBA0086D264 /* MSONValueMemberParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = 408F38D91A153AB200104774 /* MSONValueMemberParser.cc */; };
+		742521AD20502FBA0086D264 /* HeadersParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = BBF0551F1AC18F2E00AEB54B /* HeadersParser.cc */; };
+		742521AE20502FBA0086D264 /* MSONTypeSectionParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4079DBA81A138C580075B534 /* MSONTypeSectionParser.cc */; };
+		742521AF20502FBA0086D264 /* RegexMatch.cc in Sources */ = {isa = PBXBuildFile; fileRef = BBB0F4271731CE0D00C92465 /* RegexMatch.cc */; };
+		742521B020502FBA0086D264 /* MSONSourcemap.cc in Sources */ = {isa = PBXBuildFile; fileRef = 406AB4C61A57B66200BD381C /* MSONSourcemap.cc */; };
+		742521B120502FBA0086D264 /* Blueprint.cc in Sources */ = {isa = PBXBuildFile; fileRef = 40148D4F1A7624E100961D74 /* Blueprint.cc */; };
+		742521B420502FBA0086D264 /* SignatureSectionProcessor.h in Headers */ = {isa = PBXBuildFile; fileRef = 40C61A2519F16C7300EC506D /* SignatureSectionProcessor.h */; };
+		742521B520502FBA0086D264 /* snowcrash.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFF48D1170B4224001E5FB2 /* snowcrash.h */; };
+		742521B620502FBA0086D264 /* Blueprint.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFF48D4170C4F30001E5FB2 /* Blueprint.h */; };
+		742521B720502FBA0086D264 /* HeadersParser.h in Headers */ = {isa = PBXBuildFile; fileRef = BBD73563192ED417009FE09E /* HeadersParser.h */; };
+		742521B820502FBA0086D264 /* ValuesParser.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCC855D19542DA100B99E90 /* ValuesParser.h */; };
+		742521B920502FBA0086D264 /* BlueprintParser.h in Headers */ = {isa = PBXBuildFile; fileRef = BBA91DC0171D402600649B05 /* BlueprintParser.h */; };
+		742521BA20502FBA0086D264 /* RegexMatch.h in Headers */ = {isa = PBXBuildFile; fileRef = BBB0F4281731CE0D00C92465 /* RegexMatch.h */; };
+		742521BB20502FBA0086D264 /* ResourceGroupParser.h in Headers */ = {isa = PBXBuildFile; fileRef = BBD5F9C717353C300049BBEE /* ResourceGroupParser.h */; };
+		742521BC20502FBA0086D264 /* DataStructureGroupParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 4026121F1A7779F600354E69 /* DataStructureGroupParser.h */; };
+		742521BD20502FBA0086D264 /* AttributesParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 401E5E651A24B545009570D0 /* AttributesParser.h */; };
+		742521BE20502FBA0086D264 /* MSONMixinParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 40BCDEAB1A0A96F8008C6C84 /* MSONMixinParser.h */; };
+		742521BF20502FBA0086D264 /* CodeBlockUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = BBC2D85E18301FEC00FBCEA7 /* CodeBlockUtility.h */; };
+		742521C020502FBA0086D264 /* SectionParser.h in Headers */ = {isa = PBXBuildFile; fileRef = BB8C3E621923D6FE00EF36FA /* SectionParser.h */; };
+		742521C120502FBA0086D264 /* MSONOneOfParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 40BCDEAD1A0A9724008C6C84 /* MSONOneOfParser.h */; };
+		742521C220502FBA0086D264 /* MSONTypeSectionParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 40DE0C0D1A091ECE00D2F0A8 /* MSONTypeSectionParser.h */; };
+		742521C320502FBA0086D264 /* RelationParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 408E7FC51AA69EF000BF68B3 /* RelationParser.h */; };
+		742521C420502FBA0086D264 /* ModelTable.h in Headers */ = {isa = PBXBuildFile; fileRef = 40CA216019FE989F0086531D /* ModelTable.h */; };
+		742521C520502FBA0086D264 /* MSON.h in Headers */ = {isa = PBXBuildFile; fileRef = 40A1EE0A19EC0A0B00DB894A /* MSON.h */; };
+		742521C620502FBA0086D264 /* MSONUtility.h in Headers */ = {isa = PBXBuildFile; fileRef = 4075AA1019F95398003C2649 /* MSONUtility.h */; };
+		742521C720502FBA0086D264 /* MSONValueMemberParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 404CD8391A07D38300AB1416 /* MSONValueMemberParser.h */; };
+		742521C820502FBA0086D264 /* ResourceParser.h in Headers */ = {isa = PBXBuildFile; fileRef = BBD5F9CC17353CE00049BBEE /* ResourceParser.h */; };
+		742521C920502FBA0086D264 /* MSONParameterParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 40481AD51AB1C3D9000B20A1 /* MSONParameterParser.h */; };
+		742521CA20502FBA0086D264 /* BlueprintSourcemap.h in Headers */ = {isa = PBXBuildFile; fileRef = 4070F30119E4C30A004892C8 /* BlueprintSourcemap.h */; };
+		742521CB20502FBA0086D264 /* PayloadParser.h in Headers */ = {isa = PBXBuildFile; fileRef = BBE5705F173927870086CE22 /* PayloadParser.h */; };
+		742521CC20502FBA0086D264 /* Section.h in Headers */ = {isa = PBXBuildFile; fileRef = BB8C3E641923D83C00EF36FA /* Section.h */; };
+		742521CD20502FBA0086D264 /* MSONPropertyMemberParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 40BCDEA91A0A9489008C6C84 /* MSONPropertyMemberParser.h */; };
+		742521CE20502FBA0086D264 /* ParameterParser.h in Headers */ = {isa = PBXBuildFile; fileRef = BBCC855C19542DA100B99E90 /* ParameterParser.h */; };
+		742521CF20502FBA0086D264 /* MSONNamedTypeParser.h in Headers */ = {isa = PBXBuildFile; fileRef = 40BCDEB11A0A9790008C6C84 /* MSONNamedTypeParser.h */; };
+		742521D020502FBA0086D264 /* SectionParserData.h in Headers */ = {isa = PBXBuildFile; fileRef = BB088F77192D7901003AA95C /* SectionParserData.h */; };
+		742521D120502FBA0086D264 /* UriTemplateParser.h in Headers */ = {isa = PBXBuildFile; fileRef = BBFC8417196C0C0F001A236A /* UriTemplateParser.h */; };
+		742521D220502FBA0086D264 /* MSONSourcemap.h in Headers */ = {isa = PBXBuildFile; fileRef = 404CD8381A07D38300AB1416 /* MSONSourcemap.h */; };
+		7425220F205032130086D264 /* test-ActionParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = BB50F0BC17D1DC9B0002C363 /* test-ActionParser.cc */; };
+		74252210205032130086D264 /* test-MSONUtility.cc in Sources */ = {isa = PBXBuildFile; fileRef = 406B664E19FA6F63003CBD3A /* test-MSONUtility.cc */; };
+		74252211205032130086D264 /* test-RelationParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = 408E7FC71AA69F0D00BF68B3 /* test-RelationParser.cc */; };
+		74252212205032130086D264 /* test-DataStructureGroupParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = 402612211A777A9A00354E69 /* test-DataStructureGroupParser.cc */; };
+		74252213205032130086D264 /* test-ValuesParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = BBCC856119542DB300B99E90 /* test-ValuesParser.cc */; };
+		74252214205032130086D264 /* test-SymbolIdentifier.cc in Sources */ = {isa = PBXBuildFile; fileRef = BBCC04E518A51AA800C65A08 /* test-SymbolIdentifier.cc */; };
+		74252215205032130086D264 /* test-RegexMatch.cc in Sources */ = {isa = PBXBuildFile; fileRef = BBB0F42B1731D04900C92465 /* test-RegexMatch.cc */; };
+		74252216205032130086D264 /* test-ParameterParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = BBCC856019542DB300B99E90 /* test-ParameterParser.cc */; };
+		74252217205032130086D264 /* test-BlueprintUtility.cc in Sources */ = {isa = PBXBuildFile; fileRef = 40015D001AA58176002F0A55 /* test-BlueprintUtility.cc */; };
+		74252218205032130086D264 /* test-AssetParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = BB3DD974174654FD004C4077 /* test-AssetParser.cc */; };
+		74252219205032130086D264 /* test-BlueprintParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = BBA01FF817292F9C0050B603 /* test-BlueprintParser.cc */; };
+		7425221A205032130086D264 /* test-StringUtility.cc in Sources */ = {isa = PBXBuildFile; fileRef = 40CA216419FE993E0086531D /* test-StringUtility.cc */; };
+		7425221B205032130086D264 /* test-ResourceParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = BBD5F9DD173578210049BBEE /* test-ResourceParser.cc */; };
+		7425221C205032130086D264 /* test-Blueprint.cc in Sources */ = {isa = PBXBuildFile; fileRef = BBFF48D7170C57F1001E5FB2 /* test-Blueprint.cc */; };
+		7425221D205032130086D264 /* test-AttributesParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = 401E5E671A24B56B009570D0 /* test-AttributesParser.cc */; };
+		7425221E205032130086D264 /* test-SectionParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = BBCC856619543A4D00B99E90 /* test-SectionParser.cc */; };
+		7425221F205032130086D264 /* test-MSONNamedTypeParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = 40BCDEBC1A0A9892008C6C84 /* test-MSONNamedTypeParser.cc */; };
+		74252220205032130086D264 /* test-ResourceGroupParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = BBB127871999700E0041E9AE /* test-ResourceGroupParser.cc */; };
+		74252221205032130086D264 /* test-MSONValueMemberParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = 404CD83E1A07D3A800AB1416 /* test-MSONValueMemberParser.cc */; };
+		74252222205032130086D264 /* test-PayloadParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = BBE5705C173922B70086CE22 /* test-PayloadParser.cc */; };
+		74252223205032130086D264 /* test-ParametersParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = BB03DC6517D3718D00C51E52 /* test-ParametersParser.cc */; };
+		74252224205032130086D264 /* test-MSONMixinParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = 40BCDEB51A0A981A008C6C84 /* test-MSONMixinParser.cc */; };
+		74252225205032130086D264 /* test-MSONOneOfParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = 40BCDEB71A0A9841008C6C84 /* test-MSONOneOfParser.cc */; };
+		74252226205032130086D264 /* test-Indentation.cc in Sources */ = {isa = PBXBuildFile; fileRef = BB45781D182326EE00D0293A /* test-Indentation.cc */; };
+		74252227205032130086D264 /* test-Warnings.cc in Sources */ = {isa = PBXBuildFile; fileRef = BB9E7029183342CB00ED5806 /* test-Warnings.cc */; };
+		74252228205032130086D264 /* test-ModelTable.cc in Sources */ = {isa = PBXBuildFile; fileRef = 40CA216219FE99150086531D /* test-ModelTable.cc */; };
+		74252229205032130086D264 /* test-Signature.cc in Sources */ = {isa = PBXBuildFile; fileRef = 4056BE0A19EE98C5003AC26C /* test-Signature.cc */; };
+		7425222A205032130086D264 /* test-UriTemplateParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = BBFC8422196C0C27001A236A /* test-UriTemplateParser.cc */; };
+		7425222B205032130086D264 /* test-MSONParameterParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = 401A542D1AB1D1BA00EB3F17 /* test-MSONParameterParser.cc */; };
+		7425222C205032130086D264 /* test-snowcrash.cc in Sources */ = {isa = PBXBuildFile; fileRef = BBFF48C9170B3C49001E5FB2 /* test-snowcrash.cc */; };
+		7425222D205032130086D264 /* test-MSONTypeSectionParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = 40DE0C0F1A091F6300D2F0A8 /* test-MSONTypeSectionParser.cc */; };
+		7425222E205032130086D264 /* test-MSONPropertyMemberParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = 40BCDEB31A0A97F6008C6C84 /* test-MSONPropertyMemberParser.cc */; };
+		7425222F205032130086D264 /* test-HeadersParser.cc in Sources */ = {isa = PBXBuildFile; fileRef = BBD73565192ED45D009FE09E /* test-HeadersParser.cc */; };
+		74252231205032130086D264 /* libsnowcrash.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFF4898170B34E6001E5FB2 /* libsnowcrash.a */; };
+		74252232205032130086D264 /* libmarkdownparser.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BB8C3E701923F09900EF36FA /* libmarkdownparser.a */; };
 		BB05B9D81804493500243E1B /* perf-snowcrash.cc in Sources */ = {isa = PBXBuildFile; fileRef = BB05B9D71804493500243E1B /* perf-snowcrash.cc */; };
 		BB05B9D918044C8200243E1B /* libsnowcrash.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BBFF4898170B34E6001E5FB2 /* libsnowcrash.a */; };
 		BB088F78192D7901003AA95C /* SectionParserData.h in Headers */ = {isa = PBXBuildFile; fileRef = BB088F77192D7901003AA95C /* SectionParserData.h */; };
@@ -93,6 +173,48 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		742521DF205031700086D264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 742521DA205031700086D264 /* markdownparser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BBAE529B18FEBFAE00D98223;
+			remoteInfo = libmarkdownparser;
+		};
+		742521E1205031700086D264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 742521DA205031700086D264 /* markdownparser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = BB955A4D19011E85006684B8;
+			remoteInfo = "test-libmarkdownparser";
+		};
+		742521E32050317D0086D264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 742521DA205031700086D264 /* markdownparser.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = BBAE529A18FEBFAE00D98223;
+			remoteInfo = libmarkdownparser;
+		};
+		74252207205031EF0086D264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 742521DA205031700086D264 /* markdownparser.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 74252205205031CF0086D264;
+			remoteInfo = "libmarkdownparser-ios";
+		};
+		74252209205031F10086D264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 742521DA205031700086D264 /* markdownparser.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 742521E7205031CF0086D264;
+			remoteInfo = "libmarkdownparser-ios";
+		};
+		74252238205032290086D264 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BBFF4890170B34E6001E5FB2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 742521A220502FBA0086D264;
+			remoteInfo = "libsnowcrash-ios";
+		};
 		BB8C3E6D1923F06E00EF36FA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BBFF4890170B34E6001E5FB2 /* Project object */;
@@ -110,6 +232,15 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
+		74252233205032130086D264 /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
 		BB05B9CC180448E300243E1B /* CopyFiles */ = {
 			isa = PBXCopyFilesBuildPhase;
 			buildActionMask = 2147483647;
@@ -169,6 +300,9 @@
 		40DE0C0B1A08F3CF00D2F0A8 /* MSON.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = MSON.cc; path = src/MSON.cc; sourceTree = "<group>"; };
 		40DE0C0D1A091ECE00D2F0A8 /* MSONTypeSectionParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MSONTypeSectionParser.h; path = src/MSONTypeSectionParser.h; sourceTree = "<group>"; };
 		40DE0C0F1A091F6300D2F0A8 /* test-MSONTypeSectionParser.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "test-MSONTypeSectionParser.cc"; path = "test/test-MSONTypeSectionParser.cc"; sourceTree = "<group>"; };
+		742521D620502FBA0086D264 /* libsnowcrash-ios.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libsnowcrash-ios.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		742521DA205031700086D264 /* markdownparser.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = markdownparser.xcodeproj; path = "ext/markdown-parser/markdownparser.xcodeproj"; sourceTree = "<group>"; };
+		74252237205032130086D264 /* test-libsnowcrash-ios */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "test-libsnowcrash-ios"; sourceTree = BUILT_PRODUCTS_DIR; };
 		BB03DC6417D3717B00C51E52 /* ParametersParser.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; lineEnding = 0; name = ParametersParser.h; path = src/ParametersParser.h; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.objcpp; };
 		BB03DC6517D3718D00C51E52 /* test-ParametersParser.cc */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.cpp; name = "test-ParametersParser.cc"; path = "test/test-ParametersParser.cc"; sourceTree = "<group>"; };
 		BB05B9CE180448E300243E1B /* perf-libsnowcrash */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "perf-libsnowcrash"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -228,6 +362,22 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		742521B220502FBA0086D264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		74252230205032130086D264 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				74252231205032130086D264 /* libsnowcrash.a in Frameworks */,
+				74252232205032130086D264 /* libmarkdownparser.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BB05B9CB180448E300243E1B /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -256,6 +406,16 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		742521DB205031700086D264 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				742521E0205031700086D264 /* libmarkdownparser.a */,
+				742521E2205031700086D264 /* test-libmarkdownparser */,
+				74252208205031EF0086D264 /* libmarkdownparser-ios.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		BB05B9CF180448E300243E1B /* perf-libsnowcrash */ = {
 			isa = PBXGroup;
 			children = (
@@ -268,6 +428,7 @@
 		BBFF488F170B34E6001E5FB2 = {
 			isa = PBXGroup;
 			children = (
+				742521DA205031700086D264 /* markdownparser.xcodeproj */,
 				BB8C3E701923F09900EF36FA /* libmarkdownparser.a */,
 				BBFF48CB170B3ECB001E5FB2 /* libsnowcrash */,
 				BBFF48B9170B3AF6001E5FB2 /* test-libsnowcrash */,
@@ -282,6 +443,8 @@
 				BBFF4898170B34E6001E5FB2 /* libsnowcrash.a */,
 				BBFF48C0170B3C30001E5FB2 /* test-libsnowcrash */,
 				BB05B9CE180448E300243E1B /* perf-libsnowcrash */,
+				742521D620502FBA0086D264 /* libsnowcrash-ios.a */,
+				74252237205032130086D264 /* test-libsnowcrash-ios */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -392,6 +555,44 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		742521B320502FBA0086D264 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				742521B420502FBA0086D264 /* SignatureSectionProcessor.h in Headers */,
+				742521B520502FBA0086D264 /* snowcrash.h in Headers */,
+				742521B620502FBA0086D264 /* Blueprint.h in Headers */,
+				742521B720502FBA0086D264 /* HeadersParser.h in Headers */,
+				742521B820502FBA0086D264 /* ValuesParser.h in Headers */,
+				742521B920502FBA0086D264 /* BlueprintParser.h in Headers */,
+				742521BA20502FBA0086D264 /* RegexMatch.h in Headers */,
+				742521BB20502FBA0086D264 /* ResourceGroupParser.h in Headers */,
+				742521BC20502FBA0086D264 /* DataStructureGroupParser.h in Headers */,
+				742521BD20502FBA0086D264 /* AttributesParser.h in Headers */,
+				742521BE20502FBA0086D264 /* MSONMixinParser.h in Headers */,
+				742521BF20502FBA0086D264 /* CodeBlockUtility.h in Headers */,
+				742521C020502FBA0086D264 /* SectionParser.h in Headers */,
+				742521C120502FBA0086D264 /* MSONOneOfParser.h in Headers */,
+				742521C220502FBA0086D264 /* MSONTypeSectionParser.h in Headers */,
+				742521C320502FBA0086D264 /* RelationParser.h in Headers */,
+				742521C420502FBA0086D264 /* ModelTable.h in Headers */,
+				742521C520502FBA0086D264 /* MSON.h in Headers */,
+				742521C620502FBA0086D264 /* MSONUtility.h in Headers */,
+				742521C720502FBA0086D264 /* MSONValueMemberParser.h in Headers */,
+				742521C820502FBA0086D264 /* ResourceParser.h in Headers */,
+				742521C920502FBA0086D264 /* MSONParameterParser.h in Headers */,
+				742521CA20502FBA0086D264 /* BlueprintSourcemap.h in Headers */,
+				742521CB20502FBA0086D264 /* PayloadParser.h in Headers */,
+				742521CC20502FBA0086D264 /* Section.h in Headers */,
+				742521CD20502FBA0086D264 /* MSONPropertyMemberParser.h in Headers */,
+				742521CE20502FBA0086D264 /* ParameterParser.h in Headers */,
+				742521CF20502FBA0086D264 /* MSONNamedTypeParser.h in Headers */,
+				742521D020502FBA0086D264 /* SectionParserData.h in Headers */,
+				742521D120502FBA0086D264 /* UriTemplateParser.h in Headers */,
+				742521D220502FBA0086D264 /* MSONSourcemap.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BBFF4896170B34E6001E5FB2 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -433,6 +634,43 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		742521A220502FBA0086D264 /* libsnowcrash-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 742521D320502FBA0086D264 /* Build configuration list for PBXNativeTarget "libsnowcrash-ios" */;
+			buildPhases = (
+				742521A320502FBA0086D264 /* Sources */,
+				742521B220502FBA0086D264 /* Frameworks */,
+				742521B320502FBA0086D264 /* Headers */,
+				7425223E205032C20086D264 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				7425220A205031F10086D264 /* PBXTargetDependency */,
+			);
+			name = "libsnowcrash-ios";
+			productName = snowcrash;
+			productReference = 742521D620502FBA0086D264 /* libsnowcrash-ios.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		7425220B205032130086D264 /* test-libsnowcrash-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 74252234205032130086D264 /* Build configuration list for PBXNativeTarget "test-libsnowcrash-ios" */;
+			buildPhases = (
+				7425220E205032130086D264 /* Sources */,
+				74252230205032130086D264 /* Frameworks */,
+				74252233205032130086D264 /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				74252239205032290086D264 /* PBXTargetDependency */,
+			);
+			name = "test-libsnowcrash-ios";
+			productName = "test-snowcrash";
+			productReference = 74252237205032130086D264 /* test-libsnowcrash-ios */;
+			productType = "com.apple.product-type.tool";
+		};
 		BB05B9CD180448E300243E1B /* perf-libsnowcrash */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = BB05B9D6180448E300243E1B /* Build configuration list for PBXNativeTarget "perf-libsnowcrash" */;
@@ -462,6 +700,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				742521E42050317D0086D264 /* PBXTargetDependency */,
 			);
 			name = libsnowcrash;
 			productName = snowcrash;
@@ -505,16 +744,125 @@
 			mainGroup = BBFF488F170B34E6001E5FB2;
 			productRefGroup = BBFF4899170B34E6001E5FB2 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 742521DB205031700086D264 /* Products */;
+					ProjectRef = 742521DA205031700086D264 /* markdownparser.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				BBFF4897170B34E6001E5FB2 /* libsnowcrash */,
 				BBFF48BF170B3C30001E5FB2 /* test-libsnowcrash */,
 				BB05B9CD180448E300243E1B /* perf-libsnowcrash */,
+				742521A220502FBA0086D264 /* libsnowcrash-ios */,
+				7425220B205032130086D264 /* test-libsnowcrash-ios */,
 			);
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		742521E0205031700086D264 /* libmarkdownparser.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libmarkdownparser.a;
+			remoteRef = 742521DF205031700086D264 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		742521E2205031700086D264 /* test-libmarkdownparser */ = {
+			isa = PBXReferenceProxy;
+			fileType = "compiled.mach-o.executable";
+			path = "test-libmarkdownparser";
+			remoteRef = 742521E1205031700086D264 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		74252208205031EF0086D264 /* libmarkdownparser-ios.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libmarkdownparser-ios.a";
+			remoteRef = 74252207205031EF0086D264 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7425223E205032C20086D264 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "##########################################\n#\n# c.f. http://stackoverflow.com/questions/3520977/build-fat-static-library-device-simulator-using-xcode-and-sdk-4\n#\n# Version 2.82\n#\n# Latest Change:\n# - MORE tweaks to get the iOS 10+ and 9- working\n# - Support iOS 10+\n# - Corrected typo for iOS 1-10+ (thanks @stuikomma)\n#\n# Purpose:\n#   Automatically create a Universal static library for iPhone + iPad + iPhone Simulator from within XCode\n#\n# Author: Adam Martin - http://twitter.com/redglassesapps\n# Based on: original script from Eonil (main changes: Eonil's script WILL NOT WORK in Xcode GUI - it WILL CRASH YOUR COMPUTER)\n#\n\nset -e\nset -o pipefail\n\n#################[ Tests: helps workaround any future bugs in Xcode ]########\n#\nDEBUG_THIS_SCRIPT=\"false\"\n\nif [ $DEBUG_THIS_SCRIPT = \"true\" ]\nthen\necho \"########### TESTS #############\"\necho \"Use the following variables when debugging this script; note that they may change on recursions\"\necho \"BUILD_DIR = $BUILD_DIR\"\necho \"BUILD_ROOT = $BUILD_ROOT\"\necho \"CONFIGURATION_BUILD_DIR = $CONFIGURATION_BUILD_DIR\"\necho \"BUILT_PRODUCTS_DIR = $BUILT_PRODUCTS_DIR\"\necho \"CONFIGURATION_TEMP_DIR = $CONFIGURATION_TEMP_DIR\"\necho \"TARGET_BUILD_DIR = $TARGET_BUILD_DIR\"\nfi\n\n#####################[ part 1 ]##################\n# First, work out the BASESDK version number (NB: Apple ought to report this, but they hide it)\n#    (incidental: searching for substrings in sh is a nightmare! Sob)\n\nSDK_VERSION=$(echo ${SDK_NAME} | grep -o '\\d\\{1,2\\}\\.\\d\\{1,2\\}$')\n\n# Next, work out if we're in SIM or DEVICE\n\nif [ ${PLATFORM_NAME} = \"iphonesimulator\" ]\nthen\nOTHER_SDK_TO_BUILD=iphoneos${SDK_VERSION}\nelse\nOTHER_SDK_TO_BUILD=iphonesimulator${SDK_VERSION}\nfi\n\necho \"XCode has selected SDK: ${PLATFORM_NAME} with version: ${SDK_VERSION} (although back-targetting: ${IPHONEOS_DEPLOYMENT_TARGET})\"\necho \"...therefore, OTHER_SDK_TO_BUILD = ${OTHER_SDK_TO_BUILD}\"\n#\n#####################[ end of part 1 ]##################\n\n#####################[ part 2 ]##################\n#\n# IF this is the original invocation, invoke WHATEVER other builds are required\n#\n# Xcode is already building ONE target...\n#\n# ...but this is a LIBRARY, so Apple is wrong to set it to build just one.\n# ...we need to build ALL targets\n# ...we MUST NOT re-build the target that is ALREADY being built: Xcode WILL CRASH YOUR COMPUTER if you try this (infinite recursion!)\n#\n#\n# So: build ONLY the missing platforms/configurations.\n\nif [ \"true\" == ${ALREADYINVOKED:-false} ]\nthen\necho \"RECURSION: I am NOT the root invocation, so I'm NOT going to recurse\"\nelse\n# CRITICAL:\n# Prevent infinite recursion (Xcode sucks)\nexport ALREADYINVOKED=\"true\"\n\necho \"RECURSION: I am the root ... recursing all missing build targets NOW...\"\necho \"RECURSION: ...about to invoke: xcodebuild -configuration \\\"${CONFIGURATION}\\\" -project \\\"${PROJECT_NAME}.xcodeproj\\\" -target \\\"${TARGET_NAME}\\\" -sdk \\\"${OTHER_SDK_TO_BUILD}\\\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO\" BUILD_DIR=\\\"${BUILD_DIR}\\\" BUILD_ROOT=\\\"${BUILD_ROOT}\\\" SYMROOT=\\\"${SYMROOT}\\\"\n\nxcodebuild -configuration \"${CONFIGURATION}\" -project \"${PROJECT_NAME}.xcodeproj\" -target \"${TARGET_NAME}\" -sdk \"${OTHER_SDK_TO_BUILD}\" ${ACTION} RUN_CLANG_STATIC_ANALYZER=NO BUILD_DIR=\"${BUILD_DIR}\" BUILD_ROOT=\"${BUILD_ROOT}\" SYMROOT=\"${SYMROOT}\"\n\nACTION=\"build\"\n\n#Merge all platform binaries as a fat binary for each configurations.\n\n# Calculate where the (multiple) built files are coming from:\nCURRENTCONFIG_DEVICE_DIR=${SYMROOT}/${CONFIGURATION}-iphoneos\nCURRENTCONFIG_SIMULATOR_DIR=${SYMROOT}/${CONFIGURATION}-iphonesimulator\n\necho \"Taking device build from: ${CURRENTCONFIG_DEVICE_DIR}\"\necho \"Taking simulator build from: ${CURRENTCONFIG_SIMULATOR_DIR}\"\n\nCREATING_UNIVERSAL_DIR=${SYMROOT}/${CONFIGURATION}-universal\necho \"...I will output a universal build to: ${CREATING_UNIVERSAL_DIR}\"\n\n# ... remove the products of previous runs of this script\n#      NB: this directory is ONLY created by this script - it should be safe to delete!\n\nrm -rf \"${CREATING_UNIVERSAL_DIR}\"\nmkdir \"${CREATING_UNIVERSAL_DIR}\"\n\n#\necho \"lipo: for current configuration (${CONFIGURATION}) creating output file: ${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\"\nxcrun -sdk iphoneos lipo -create -output \"${CREATING_UNIVERSAL_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_DEVICE_DIR}/${EXECUTABLE_NAME}\" \"${CURRENTCONFIG_SIMULATOR_DIR}/${EXECUTABLE_NAME}\"\n\n#########\n#\n# Added: StackOverflow suggestion to also copy \"include\" files\n#    (untested, but should work OK)\n#\necho \"Fetching headers from ${PUBLIC_HEADERS_FOLDER_PATH}\"\necho \"  (if you embed your library project in another project, you will need to add\"\necho \"   a \"User Search Headers\" build setting of: (NB INCLUDE THE DOUBLE QUOTES BELOW!)\"\necho '        \"$(TARGET_BUILD_DIR)/usr/local/include/\"'\nif [ -d \"${CURRENTCONFIG_DEVICE_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\" ]\nthen\nmkdir -p \"${CREATING_UNIVERSAL_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\"\n# * needs to be outside the double quotes?\ncp -r \"${CURRENTCONFIG_DEVICE_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\"* \"${CREATING_UNIVERSAL_DIR}${PUBLIC_HEADERS_FOLDER_PATH}\"\nfi\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
+		742521A320502FBA0086D264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				742521A420502FBA0086D264 /* BlueprintSourcemap.cc in Sources */,
+				742521A520502FBA0086D264 /* snowcrash.cc in Sources */,
+				742521A620502FBA0086D264 /* HTTP.cc in Sources */,
+				742521A720502FBA0086D264 /* MSONOneOfParser.cc in Sources */,
+				742521A820502FBA0086D264 /* Section.cc in Sources */,
+				742521A920502FBA0086D264 /* Signature.cc in Sources */,
+				742521AA20502FBA0086D264 /* MSON.cc in Sources */,
+				742521AB20502FBA0086D264 /* UriTemplateParser.cc in Sources */,
+				742521AC20502FBA0086D264 /* MSONValueMemberParser.cc in Sources */,
+				742521AD20502FBA0086D264 /* HeadersParser.cc in Sources */,
+				742521AE20502FBA0086D264 /* MSONTypeSectionParser.cc in Sources */,
+				742521AF20502FBA0086D264 /* RegexMatch.cc in Sources */,
+				742521B020502FBA0086D264 /* MSONSourcemap.cc in Sources */,
+				742521B120502FBA0086D264 /* Blueprint.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7425220E205032130086D264 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7425220F205032130086D264 /* test-ActionParser.cc in Sources */,
+				74252210205032130086D264 /* test-MSONUtility.cc in Sources */,
+				74252211205032130086D264 /* test-RelationParser.cc in Sources */,
+				74252212205032130086D264 /* test-DataStructureGroupParser.cc in Sources */,
+				74252213205032130086D264 /* test-ValuesParser.cc in Sources */,
+				74252214205032130086D264 /* test-SymbolIdentifier.cc in Sources */,
+				74252215205032130086D264 /* test-RegexMatch.cc in Sources */,
+				74252216205032130086D264 /* test-ParameterParser.cc in Sources */,
+				74252217205032130086D264 /* test-BlueprintUtility.cc in Sources */,
+				74252218205032130086D264 /* test-AssetParser.cc in Sources */,
+				74252219205032130086D264 /* test-BlueprintParser.cc in Sources */,
+				7425221A205032130086D264 /* test-StringUtility.cc in Sources */,
+				7425221B205032130086D264 /* test-ResourceParser.cc in Sources */,
+				7425221C205032130086D264 /* test-Blueprint.cc in Sources */,
+				7425221D205032130086D264 /* test-AttributesParser.cc in Sources */,
+				7425221E205032130086D264 /* test-SectionParser.cc in Sources */,
+				7425221F205032130086D264 /* test-MSONNamedTypeParser.cc in Sources */,
+				74252220205032130086D264 /* test-ResourceGroupParser.cc in Sources */,
+				74252221205032130086D264 /* test-MSONValueMemberParser.cc in Sources */,
+				74252222205032130086D264 /* test-PayloadParser.cc in Sources */,
+				74252223205032130086D264 /* test-ParametersParser.cc in Sources */,
+				74252224205032130086D264 /* test-MSONMixinParser.cc in Sources */,
+				74252225205032130086D264 /* test-MSONOneOfParser.cc in Sources */,
+				74252226205032130086D264 /* test-Indentation.cc in Sources */,
+				74252227205032130086D264 /* test-Warnings.cc in Sources */,
+				74252228205032130086D264 /* test-ModelTable.cc in Sources */,
+				74252229205032130086D264 /* test-Signature.cc in Sources */,
+				7425222A205032130086D264 /* test-UriTemplateParser.cc in Sources */,
+				7425222B205032130086D264 /* test-MSONParameterParser.cc in Sources */,
+				7425222C205032130086D264 /* test-snowcrash.cc in Sources */,
+				7425222D205032130086D264 /* test-MSONTypeSectionParser.cc in Sources */,
+				7425222E205032130086D264 /* test-MSONPropertyMemberParser.cc in Sources */,
+				7425222F205032130086D264 /* test-HeadersParser.cc in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		BB05B9CA180448E300243E1B /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -587,6 +935,21 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		742521E42050317D0086D264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = libmarkdownparser;
+			targetProxy = 742521E32050317D0086D264 /* PBXContainerItemProxy */;
+		};
+		7425220A205031F10086D264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "libmarkdownparser-ios";
+			targetProxy = 74252209205031F10086D264 /* PBXContainerItemProxy */;
+		};
+		74252239205032290086D264 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 742521A220502FBA0086D264 /* libsnowcrash-ios */;
+			targetProxy = 74252238205032290086D264 /* PBXContainerItemProxy */;
+		};
 		BB8C3E6E1923F06E00EF36FA /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			target = BBFF4897170B34E6001E5FB2 /* libsnowcrash */;
@@ -600,6 +963,54 @@
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
+		742521D420502FBA0086D264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/snowcrash-etyympsdikhephgzkvczxkaprkpp/Build/Products/Debug",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "./ext/markdown-parser/src/** ./ext/markdown-parser/ext/sundown/src/**";
+			};
+			name = Debug;
+		};
+		742521D520502FBA0086D264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				EXECUTABLE_PREFIX = "";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(USER_LIBRARY_DIR)/Developer/Xcode/DerivedData/snowcrash-etyympsdikhephgzkvczxkaprkpp/Build/Products/Debug",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "./ext/markdown-parser/src/** ./ext/markdown-parser/ext/sundown/src/**";
+			};
+			name = Release;
+		};
+		74252235205032130086D264 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "./ext/markdown-parser/src/** ./ext/markdown-parser/ext/sundown/src/** ./test/**";
+			};
+			name = Debug;
+		};
+		74252236205032130086D264 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				USER_HEADER_SEARCH_PATHS = "./ext/markdown-parser/src/** ./ext/markdown-parser/ext/sundown/src/** ./test/**";
+			};
+			name = Release;
+		};
 		BB05B9D4180448E300243E1B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -734,6 +1145,24 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		742521D320502FBA0086D264 /* Build configuration list for PBXNativeTarget "libsnowcrash-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				742521D420502FBA0086D264 /* Debug */,
+				742521D520502FBA0086D264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		74252234205032130086D264 /* Build configuration list for PBXNativeTarget "test-libsnowcrash-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				74252235205032130086D264 /* Debug */,
+				74252236205032130086D264 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		BB05B9D6180448E300243E1B /* Build configuration list for PBXNativeTarget "perf-libsnowcrash" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
